@@ -13,11 +13,11 @@ public class Airpurifier {
 
     void turnOn(){
         power = true;
-        System.out.println("Status is Turn on");
+        System.out.println("Status is open");
     }
     void turnOff(){
         power = false;
-        System.out.println("Status is Turn off");
+        System.out.println("Status is close");
     }
     public Airpurifier(String model,String serialNo){
         this.model=model;
